@@ -5,7 +5,7 @@ import "./Header.css"
 
 const Header = () => {
   return (
-    <div>
+    <div className="myheader">
       <header className="hide-when-mobile mezo">
         <h1>
           <Link to="/">Moataz Anwar</Link>
@@ -67,8 +67,10 @@ const Header = () => {
         </ul>
       </header>
 
-      <header className="show-when-mobile">
-        <h1>Moataz Anwar</h1>
+      <header className="show-when-mobile mezo">
+        <h1>
+          Moataz Anwar
+          </h1>
         <label className="absolute" htmlFor="burger">
           <i className="fas fa-bars" />
         </label>
@@ -79,7 +81,7 @@ const Header = () => {
               HTML <i className="fas fa-plus" />
             </label>
             <input id="html" type="checkbox" />
-            <ul className="sub-div">
+            {/* <ul className="sub-div">
               <li>
                 <a href="">Full Course</a>
               </li>
@@ -89,14 +91,14 @@ const Header = () => {
               <li>
                 <a href="">learn in 1h</a>
               </li>
-            </ul>
+            </ul> */}
           </div>
           <div className="main-div">
             <label htmlFor="css">
               CSS <i className="fas fa-plus" />
             </label>
             <input id="css" type="checkbox" />
-            <ul className="sub-div">
+            {/* <ul className="sub-div">
               <li>
                 <a href="">Full Course</a>
               </li>
@@ -120,18 +122,18 @@ const Header = () => {
                   </li>
                 </ul>
               </li>
-            </ul>
+            </ul> */}
           </div>
           <div className="main-div">
             <label htmlFor="js">
               JavaScript <i className="fas fa-plus" />
             </label>
             <input id="js" type="checkbox" />
-            <ul className="sub-div">
+            {/* <ul className="sub-div">
               <li>
                 <a href="">coming soon🔥</a>
               </li>
-            </ul>
+            </ul> */}
           </div>
         </div>
       </header>
